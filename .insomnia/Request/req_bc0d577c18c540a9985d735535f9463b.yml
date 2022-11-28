@@ -1,0 +1,28 @@
+_id: req_bc0d577c18c540a9985d735535f9463b
+type: Request
+parentId: fld_726ebe8ce9294805a8edf19a41b4d0b1
+modified: 1669648198329
+created: 1669646724660
+url: "{{ _.base_api }}/movies/51/actors"
+name: /movies/{id}/actors
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"actor_id": 100
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669646773840
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

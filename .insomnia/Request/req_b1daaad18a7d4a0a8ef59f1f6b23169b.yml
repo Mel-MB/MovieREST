@@ -1,0 +1,28 @@
+_id: req_b1daaad18a7d4a0a8ef59f1f6b23169b
+type: Request
+parentId: fld_c5fe093969c54b1a875c0681aae45ca3
+modified: 1669648534800
+created: 1669646970325
+url: "{{ _.base_api }}/30"
+name: /directors/{id}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Chris Columbus"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669646747731
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

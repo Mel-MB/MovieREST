@@ -1,0 +1,21 @@
+_id: req_29e9892fc4fc43158483576b20381a31
+type: Request
+parentId: fld_726ebe8ce9294805a8edf19a41b4d0b1
+modified: 1669648332548
+created: 1669640462731
+url: "{{ _.base_api }}/movies/51/actorsmoviesies/"
+name: /movies/{id}/actors
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669646773740
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

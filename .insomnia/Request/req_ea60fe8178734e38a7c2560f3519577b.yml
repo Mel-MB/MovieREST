@@ -1,0 +1,28 @@
+_id: req_ea60fe8178734e38a7c2560f3519577b
+type: Request
+parentId: fld_ec59b43d6de34886b400179ddbca829f
+modified: 1669647774931
+created: 1669647004369
+url: "{{ _.base_api }}/actors/100"
+name: /actors/{id}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Daniel Radcliffe"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669646747731
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

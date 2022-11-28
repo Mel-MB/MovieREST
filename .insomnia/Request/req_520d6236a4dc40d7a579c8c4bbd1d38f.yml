@@ -1,0 +1,21 @@
+_id: req_520d6236a4dc40d7a579c8c4bbd1d38f
+type: Request
+parentId: fld_726ebe8ce9294805a8edf19a41b4d0b1
+modified: 1669647802342
+created: 1669640253165
+url: "{{ _.base_api }}/movies/51"
+name: /movies/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669646773615
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

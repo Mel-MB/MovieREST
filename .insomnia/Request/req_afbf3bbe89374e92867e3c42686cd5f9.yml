@@ -1,0 +1,21 @@
+_id: req_afbf3bbe89374e92867e3c42686cd5f9
+type: Request
+parentId: fld_ec59b43d6de34886b400179ddbca829f
+modified: 1669647761334
+created: 1669647004359
+url: "{{ _.base_api }}/actors/101"
+name: /actors/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669646747831
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,17 @@
+_id: fld_726ebe8ce9294805a8edf19a41b4d0b1
+type: RequestGroup
+parentId: wrk_dc2e94398711417a848bd8a8150879fa
+modified: 1669648779000
+created: 1669646799199
+name: MovieAPI
+description: ""
+environment:
+  port: :9080
+  path: /api/movies
+  base_api: "{{ _.base_url }}{{ _.port }}{{ _.path }}"
+environmentPropertyOrder:
+  "&":
+    - port
+    - path
+    - base_api
+metaSortKey: -1669646799199

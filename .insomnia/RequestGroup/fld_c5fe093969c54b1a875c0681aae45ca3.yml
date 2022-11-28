@@ -1,0 +1,17 @@
+_id: fld_c5fe093969c54b1a875c0681aae45ca3
+type: RequestGroup
+parentId: wrk_dc2e94398711417a848bd8a8150879fa
+modified: 1669648757394
+created: 1669646855428
+name: DirectorAPI
+description: ""
+environment:
+  port: :9080
+  path: /api/directors
+  base_api: "{{ _.base_url }}{{ _.port }}{{ _.path }}"
+environmentPropertyOrder:
+  "&":
+    - port
+    - path
+    - base_api
+metaSortKey: -1669646855428

@@ -1,0 +1,21 @@
+_id: req_55da755ed97e45ba9dc3bae65fc4cfe4
+type: Request
+parentId: fld_726ebe8ce9294805a8edf19a41b4d0b1
+modified: 1669646826612
+created: 1669640369302
+url: "{{ _.base_api }}/movies/52"
+name: /movies/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669646773690
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

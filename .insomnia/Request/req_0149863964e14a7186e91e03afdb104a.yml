@@ -1,0 +1,21 @@
+_id: req_0149863964e14a7186e91e03afdb104a
+type: Request
+parentId: fld_c5fe093969c54b1a875c0681aae45ca3
+modified: 1669648528825
+created: 1669646906234
+url: "{{ _.base_api }}/31"
+name: /directors/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669646747831
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

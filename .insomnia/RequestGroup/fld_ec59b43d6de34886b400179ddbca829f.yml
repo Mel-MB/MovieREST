@@ -1,0 +1,17 @@
+_id: fld_ec59b43d6de34886b400179ddbca829f
+type: RequestGroup
+parentId: wrk_dc2e94398711417a848bd8a8150879fa
+modified: 1669648768074
+created: 1669647004347
+name: ActorsAPI
+description: ""
+environment:
+  port: :9080
+  path: /api/actors
+  base_api: "{{ _.base_url }}{{ _.port }}{{ _.path }}"
+environmentPropertyOrder:
+  "&":
+    - port
+    - path
+    - base_api
+metaSortKey: -1669646827313.5

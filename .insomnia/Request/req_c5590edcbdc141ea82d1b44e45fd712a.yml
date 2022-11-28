@@ -1,0 +1,28 @@
+_id: req_c5590edcbdc141ea82d1b44e45fd712a
+type: Request
+parentId: fld_726ebe8ce9294805a8edf19a41b4d0b1
+modified: 1669646824726
+created: 1669640340596
+url: "{{ _.base_api }}/movies/51"
+name: /movies/{id}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |2
+     {
+    	 "name": "Harry Potter et la pierre philosophale"
+     }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669646773640
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

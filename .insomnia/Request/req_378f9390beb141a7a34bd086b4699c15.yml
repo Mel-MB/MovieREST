@@ -1,0 +1,21 @@
+_id: req_378f9390beb141a7a34bd086b4699c15
+type: Request
+parentId: fld_ec59b43d6de34886b400179ddbca829f
+modified: 1669647784462
+created: 1669647004373
+url: "{{ _.base_api }}/actors/101"
+name: /actors/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669646747681
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

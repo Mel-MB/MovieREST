@@ -1,0 +1,33 @@
+_id: req_412f1e538bb34a5a9f3f7d30c1480309
+type: Request
+parentId: fld_726ebe8ce9294805a8edf19a41b4d0b1
+modified: 1669646820143
+created: 1669639155213
+url: "{{ _.base_api }}/movies"
+name: /movies
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+        "name": "Harry Potter à l'école des sorciers",
+        "description": "Orphelin, Harry Potter a été recueilli à contrecœur par son oncle Vernon et sa tante Pétunia, aussi cruels que mesquins, qui n'hésitent pas à le faire dormir dans le placard sous l'escalier.",
+        "duration": 9120,
+        "release": "2001-12-05",
+        "director_id": 8
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ebe81ab70e6b46f49413858147b0aeb9
+authentication: {}
+metaSortKey: -1669646773590
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

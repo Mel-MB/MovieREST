@@ -1,0 +1,21 @@
+_id: req_2bca50f938484986847959a2ab5b33a3
+type: Request
+parentId: fld_c5fe093969c54b1a875c0681aae45ca3
+modified: 1669648539497
+created: 1669646978313
+url: "{{ _.base_api }}/31"
+name: /directors/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669646747681
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

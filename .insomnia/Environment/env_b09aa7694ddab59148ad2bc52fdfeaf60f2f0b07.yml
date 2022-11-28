@@ -1,0 +1,18 @@
+_id: env_b09aa7694ddab59148ad2bc52fdfeaf60f2f0b07
+type: Environment
+parentId: wrk_dc2e94398711417a848bd8a8150879fa
+modified: 1669648684509
+created: 1669638288997
+name: Base Environment
+data:
+  base_url: "{{ _.protocol }}://{{ _.domain }}"
+  protocol: http
+  domain: mel-mb-server.eddi.cloud
+dataPropertyOrder:
+  "&":
+    - base_url
+    - protocol
+    - domain
+color: null
+isPrivate: false
+metaSortKey: 1669638288997
